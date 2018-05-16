@@ -1,10 +1,15 @@
 import React from 'react'
+import Header from './header'
+import Leagues from './leagues'
 
 export default class App extends React.Component {
 
   render() {
     return (
-      <h1>On The Clock</h1>
+      <div>
+        <Header />
+        <Leagues />
+      </div>
     )
   }
 }
